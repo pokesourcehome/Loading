@@ -1,28 +1,3 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-canvas {
-    background: #000;
-    border: 5px solid #999;
-}
-
-#score {
-    font-size: 24px;
-    margin: 20px;
-}
-
-#startButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 .loading-container {
     width: 100%;
     max-width: 600px;
@@ -30,6 +5,8 @@ canvas {
     background-color: #ddd;
     border-radius: 5px;
     overflow: hidden;
+    display: flex;
+    border: 3px solid #333;
 }
 
 .loading-bar {
@@ -42,18 +19,10 @@ h1 {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-
-    #score {
-        display: none;
-    }
-
-    #startButton {
-        display: none;
-    }
-
-    #gameCanvas {
-        display: none;
-    }
-
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: antiquewhite;
 }
